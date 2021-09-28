@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -15,10 +16,11 @@
             android:layout_height="wrap_content"
             android:text="Insertar Persona"
             android:textSize="25sp"
-            android:textColor="#DF0851"
+            android:textColor="#DF08BB"
             android:gravity="center"
             android:textStyle="bold">
         </TextView>
+
         <EditText
             android:id="@+id/inputNombre"
             android:hint="Nombres:"
@@ -72,7 +74,7 @@
             android:id="@+id/btnInsertar"
             android:paddingTop="10dp"
             android:text="Insertar"
-            android:backgroundTint="@color/teal_700"
+            android:backgroundTint="#E829BF"
             android:textSize="23sp"
             android:textAllCaps="false"
             android:layout_gravity="center"
