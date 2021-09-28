@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A6ECE9"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insertar Persona"
+            android:textSize="25sp"
+            android:textColor="#DF0851"
+            android:gravity="center"
+            android:textStyle="bold">
+        </TextView>
+        <EditText
+            android:id="@+id/inputNombre"
+            android:hint="Nombres:"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/inputDni"
+            android:hint="DNI:"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/inputCorreo"
+            android:hint="Correo:"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/inputEstado_civil"
+            android:hint="Estado Civil:"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <EditText
+            android:id="@+id/inputTelefono"
+            android:hint="Teléfono:"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:paddingTop="10dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnInsertar"
+            android:paddingTop="10dp"
+            android:text="Insertar"
+            android:backgroundTint="@color/teal_700"
+            android:textSize="23sp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="60dp">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

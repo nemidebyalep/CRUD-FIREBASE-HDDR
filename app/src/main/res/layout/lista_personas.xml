@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombres: "
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/lblDni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DNI: "
+        android:layout_below="@id/lblNombres"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/lblCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo: "
+        android:layout_below="@id/lblDni"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/lblEstado_civil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado Civil: "
+        android:layout_below="@id/lblCorreo"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/lblTelefono"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Telefono: "
+        android:layout_below="@id/lblEstado_civil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblFechaRegistro"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Fecha de Registro: "
+        android:layout_below="@id/lblTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/nombres"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@+id/lblNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/dni"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/lblNombres"
+        android:layout_toRightOf="@+id/lblDni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/correo"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/lblDni"
+        android:layout_toRightOf="@+id/lblCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/estado_civil"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/lblCorreo"
+        android:layout_toRightOf="@+id/lblEstado_civil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/telefonos"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/lblEstado_civil"
+        android:layout_toRightOf="@+id/lblTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/fecharegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblTelefono"
+        android:layout_toRightOf="@+id/lblFechaRegistro"
+        android:paddingLeft="5dp"
+        android:textSize="20sp">
+
+    </TextView>
+
+</RelativeLayout>
